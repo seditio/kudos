@@ -9,8 +9,6 @@
 
 defined('COT_CODE') or die('Wrong URL.');
 
-$R['users_code_grplist_begin'] = '<ul class="list-unstyled">';
-
 $R['theme-version'] = 1;
 
 Resources::linkFileFooter($cfg['themes_dir'].'/'.$usr['theme'].'/css/modalbox.css');
