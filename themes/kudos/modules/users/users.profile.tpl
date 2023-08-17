@@ -1,5 +1,5 @@
 <!-- BEGIN: MAIN -->
-<main id="users_profile" class="mb-4">
+<main id="users_profile" class="my-4">
 	<div class="container">
 		<div class="row">
 			<div class="col">
