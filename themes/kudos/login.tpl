@@ -29,11 +29,11 @@
 <!-- ELSE -->
 				<form name="login" action="{USERS_AUTH_SEND}" method="post">
 					<div class="input-group mb-3">
-						<span class="input-group-text small w-25">{PHP.L.Name}</span>
+						<span class="input-group-text small w-25">{PHP.L.Name}:</span>
 						{USERS_AUTH_USER}
 					</div>
 					<div class="input-group mb-3">
-						<span class="input-group-text small w-25">{PHP.L.Password}</span>
+						<span class="input-group-text small w-25">{PHP.L.Password}:</span>
 						{USERS_AUTH_PASSWORD}
 						<div class="input-group-text">
 							{USERS_AUTH_REMEMBER}

@@ -1,15 +1,15 @@
 <!-- BEGIN: MAIN -->
 <!-- IF !{AJAX_MODE} -->
-<main id="message">
+<main id="message" class="my-4">
 	<div class="container">
 		<div class="row">
 			<div class="col">
 				<div class="title p-0">
-					<h1 class="text-center mb-2">{MESSAGE_TITLE}</h1>
+					<h1 class="lh-1 text-center mb-3">{MESSAGE_TITLE}</h1>
 				</div>
 <!-- ENDIF -->
-				<div class="alert alert-warning" role="alert">
-					<p class="text-center">
+				<div class="alert alert-warning mb-0" role="alert">
+					<p class="text-center mb-0">
 						{MESSAGE_BODY}
 					</p>
 					<div class="d-flex justify-content-center">

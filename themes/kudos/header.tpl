@@ -21,7 +21,7 @@
       <div class="row">
         <div class="col">
           <p class="text-center mb-0">
-            This is header
+            This is header <a href="{PHP.cfg.mainurl}">Back Home</a>
           </p>
         </div>
       </div>
