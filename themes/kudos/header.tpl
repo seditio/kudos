@@ -13,7 +13,7 @@
 
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
-	<link rel="canonical" href="{HEADER_CANONICAL_URL}" />
+	<!-- IF {HEADER_CANONICAL_URL} --><link rel="canonical" href="{HEADER_CANONICAL_URL}" /><!-- ENDIF -->
 	{HEADER_BASEHREF}
 	{HEADER_HEAD}
 </head>
